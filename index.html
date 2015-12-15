@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+
+   <div class="container">
+     <h1>PROFILE</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/img/profile.png" class="img-responsive" alt="">
+          </div>
+
+          <div class="col-md-8">
+            <h3>I am Marcus Pan, a senior at the Univeristy of Pennsylvania majoring in electrical engineering. I am interested in writing software for devices, for applications in robotics, embedded systems, home devices, and consumer electronics.</h3>
+            <br>
+            <p>mpanj@seas.upenn.edu</p>
+          </div>
+        </div><!--/row-->
+      </div><!--contianer-->
+  <br>
+  <br>
+
+  <div class="container">
+    <h1>RESEARCH PROJECTS</h1>
+
+    <div class="row">
+      <div class="col-md-3">
+        <h2></h2>
+        <img src="assets/img/scarab.png" class="img-responsive" alt="">
+      </div>
+      <div class="col-md-9">
+        <h2>Robots in the IoT</h2>
+        <i><a href="https://www.terraswarm.org/">The Terraswarm Research Center, UC Berkeley</a></i>
+        <p>Robots connected to the Internet of Things (IoT) would be able to utilize a variety of sensors and actuators in their environment to perform a task. However, a robotic system and an IoT environment are not easy to merge.</p>
+        <p>A robotic system operates best in a controlled environment with reliable sensors. An IoT environment however, can be dynamic and connecting to new devices across different communication protocols.</p>
+        <p>In this project, I developed <i>accessors</i> for the <a href="http://ptolemy.eecs.berkeley.edu">Ptolemy software</a>that communicated with ROS. Ptolemy is a software model developed at UC Berkeley for designing embedded systems.ROS (Robot Operating System) is a software architecture suited for robotic communications and algorithms. In Ptolemy, <i>accessors</i> wrap sensors, actuators, and services into a formalized model of computation. The accessors were the interface between the robot and its surrounding devices.</p>    
+        <p>In a demo for the project, I programmed a robot to patrol several objects in an area, and control a set of lights. I connected a few Philips smart Hue bulbs and an IP camera to a Local Area Network. The IP camera located AprilTags, which marked certain objects-of-interest in the robots environment. Ptolemy would connect to these devices, and send the coordinates of the tags to the robot as waypoints. It would then monitor the journey of the robot toward the objects,  and turning on a light once the robot arrived. This successfuly demonstrated the integration of ROS and Ptolemy for an IoT robotic application. </p>
+      <p><a href="assets/pdf/ptII_miniconf_10_15_video.pdf">Ptolemy II Miniconference Presentation</a></p>
+      <p><a href="http://www.popsci.com/biggest-ideas-from-darpas-tech-con-wait-what">Media Article on Related Terraswarm Demo at a DARPA conference</a>
+      </div><!--col-md-10-->
+    </div><!--row-->
+    <div class="centered">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CeTlpnGroxY" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div> <!--/container-->
+        
+<br>
+<br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h2></h2>
+        <img src="assets/img/bus.png" class="img-responsive" alt="">
+      </div>
+      <div class="col-md-9">
+        <h2>Directed Audio Traffic Warning Speaker</h2>
+        <i><a href="https://www.grasp.upenn.edu/">GRASP Lab, Penn</a></i>
+        <p>Traffic intersections are dangerous places for pedestrians, especially for the visually impaired. Some pedestrian traffic lights, emit a warning sound to alert blind pedestrians when it's time to cross.</p>
+        <p>However, regular audio spreads out in all directions, and is not easily localized. My teammates and I at the GRASP lab, are designing a directional speaker that emits sound in a narrow beam. The sound can only be heard by specific pedestrians, as it attenuates sharply outside its coverage zone. Thus a blind pedestrian would be able to track the location of the speaker more closely.</p> 
+        <p>Directed audio is modulated at high frequencies (40 kHz) to narrow its beam of coverage. Although the carrier frequency is inaudible, as the signal travels through air, <i>difference frequencies</i> are generated that reproduce the audible sound.</p> 
+        <p>We are can combine directed audio with pedestrian detection sensors to create a smart intersection system. It is safer for pedestrians, prevents collisions for drivers, and reduces noise for the general public.</p>
+        <p><a href="assets/pdf/DirectedAudioWarningSystem.pdf">ITS Conference Paper</a></p>
+      </div><!--col-md-9-->
+    </div><!--row-->
+  </div> <!--/container-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina-1.1.0.js"></script>
+    <script src="assets/js/jquery.hoverdir.js"></script>
+    <script src="assets/js/jquery.hoverex.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
