@@ -959,6 +959,13 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.img-padded {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
