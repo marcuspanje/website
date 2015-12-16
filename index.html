@@ -38,7 +38,7 @@
           </div>
 
           <div class="col-md-8">
-            <h3>I am Marcus Pan, a senior at the Univeristy of Pennsylvania majoring in electrical engineering. I am interested in writing software for devices, for applications in robotics, embedded systems, home devices, and consumer electronics.</h3>
+            <h3>I am Marcus Pan, a senior at the University of Pennsylvania majoring in electrical engineering and minoring in computer science. I am interested in the research and design of hardware and software systems, for applications in robotics and consumer electronics.</h3>
             <br>
             <p>mpanj@seas.upenn.edu</p>
           </div>
@@ -49,6 +49,8 @@
 
   <div class="container">
     <h1>RESEARCH PROJECTS</h1>
+    <h2>Robots in the IoT</h2>
+    <i><a href="https://www.terraswarm.org/">The Terraswarm Research Center, UC Berkeley</a></i>
 
     <div class="row">
       <div class="col-md-3">
@@ -56,11 +58,9 @@
         <img src="assets/img/scarab.png" class="img-responsive" alt="">
       </div>
       <div class="col-md-9">
-        <h2>Robots in the IoT</h2>
-        <i><a href="https://www.terraswarm.org/">The Terraswarm Research Center, UC Berkeley</a></i>
         <p>Robots connected to the Internet of Things (IoT) would be able to utilize a variety of sensors and actuators in their environment to perform a task. However, a robotic system and an IoT environment are not easy to merge.</p>
         <p>A robotic system operates best in a controlled environment with reliable sensors. An IoT environment however, can be dynamic and connecting to new devices across different communication protocols.</p>
-        <p>In this project, I developed <i>accessors</i> for the <a href="http://ptolemy.eecs.berkeley.edu">Ptolemy software</a>that communicated with ROS. Ptolemy is a software model developed at UC Berkeley for designing embedded systems.ROS (Robot Operating System) is a software architecture suited for robotic communications and algorithms. In Ptolemy, <i>accessors</i> wrap sensors, actuators, and services into a formalized model of computation. The accessors were the interface between the robot and its surrounding devices.</p>    
+        <p>In this project, I developed <i>accessors</i> for the <a href="http://ptolemy.eecs.berkeley.edu">Ptolemy software</a> that communicated with ROS. Ptolemy is a software model developed at UC Berkeley for designing embedded systems.ROS (Robot Operating System) is a software architecture suited for robotic communications and algorithms. In Ptolemy, <i>accessors</i> wrap sensors, actuators, and services into a formalized model of computation. The accessors were the interface between the robot and its surrounding devices.</p>    
         <p>In a demo for the project, I programmed a robot to patrol several objects in an area, and control a set of lights. I connected a few Philips smart Hue bulbs and an IP camera to a Local Area Network. The IP camera located AprilTags, which marked certain objects-of-interest in the robots environment. Ptolemy would connect to these devices, and send the coordinates of the tags to the robot as waypoints. It would then monitor the journey of the robot toward the objects,  and turning on a light once the robot arrived. This successfuly demonstrated the integration of ROS and Ptolemy for an IoT robotic application. </p>
       <p><a href="assets/pdf/ptII_miniconf_10_15_video.pdf">Ptolemy II Miniconference Presentation</a></p>
       <p><a href="http://www.popsci.com/biggest-ideas-from-darpas-tech-con-wait-what">Media Article on Related Terraswarm Demo at a DARPA conference</a>
